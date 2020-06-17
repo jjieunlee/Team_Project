@@ -100,29 +100,14 @@
                         console.log("-------------");
                         message += "의료기관명:" + 의료기관명1 + "<br>";
                          if(j==(listEl.length)-1){
-                           //message += "의료기관명:" + 의료기관명1 + "<br>";
+                         //message += "의료기관명:" + 의료기관명1 + "<br>";
                            
                         } 
                      }
-                     //console.log(listEl.length);
-
-                     //message += "</ol>";
-                     //message += "<br>";
                      $("#sel").append(message);
 
-                  
                   console.log("out" + listEl.length);
-
-                  //message += "<li>" + "의료기관명:"+의료기관명 +"<br>"+" 주소:"+주소 + "</li>";
                }
-               /*
-               for(var j=0;j>listEl.length;j++){
-                  console.log(listEl.length);
-                  message += "<li>" + "의료기관명:"+의료기관명 +"<br>"+" 주소:"+주소 + "</li>";
-               }
-               //return listEl;
-               message += "</ol>";
-               $("#sel").append(message);*/
             }
       });
    });
